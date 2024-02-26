@@ -100,7 +100,7 @@ export const SelectionTools = memo(
 							<BringToFront />
 						</Button>
 					</Hint>
-					<Hint label='Send to back'>
+					<Hint label='Send to back' sideOffset={45}>
 						<Button variant='board' size='icon' onClick={moveToBack}>
 							<SendToBack />
 						</Button>
@@ -112,7 +112,6 @@ export const SelectionTools = memo(
 							<Trash2 />
 						</Button>
 					</Hint>
-					d
 				</div>
 			</div>
 		);
